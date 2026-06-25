@@ -67,5 +67,10 @@ namespace PP
             rtxResults.Clear();
             cmbUsnRate.SelectedIndex = 0;
         }
+
+        private void cmbUsnRate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

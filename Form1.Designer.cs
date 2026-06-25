@@ -83,11 +83,12 @@
             // cmbUsnRate
             // 
             cmbUsnRate.FormattingEnabled = true;
-            cmbUsnRate.Items.AddRange(new object[] { "УСН Доходы (6%)", "", "УСН Доходы минус Расходы (15%)" });
+            cmbUsnRate.Items.AddRange(new object[] { "УСН Доходы (6%)", "УСН Доходы минус Расходы (15%)" });
             cmbUsnRate.Location = new Point(209, 208);
             cmbUsnRate.Name = "cmbUsnRate";
             cmbUsnRate.Size = new Size(161, 23);
             cmbUsnRate.TabIndex = 6;
+            cmbUsnRate.SelectedIndexChanged += cmbUsnRate_SelectedIndexChanged;
             // 
             // label4
             // 
